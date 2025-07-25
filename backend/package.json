@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "seed": "node scripts/seed.js",
+    "go": "mocha --timeout 10000 --require test/test-setup.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.4"
+  },
+  "devDependencies": {
+    "chai": "^5.2.1",
+    "chai-http": "^5.1.2",
+    "mocha": "^11.7.1",
+    "supertest": "^7.1.4"
+  }
+}
